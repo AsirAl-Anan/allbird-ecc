@@ -29,7 +29,6 @@ const addTocart = (product) =>{
                 : item
               
         ))
-        toast('Added to cart')
     } else {
         setCart([...cart,{... product , quantity: 1}])
         toast('Added to cart')

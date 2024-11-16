@@ -27,9 +27,7 @@ const addTocart = (product) =>{
             item.id === product.id 
                 ? {...item, quantity: item.quantity + 1}
                 : item
-              
         ))
-        toast('Added to cart')
     } else {
         setCart([...cart,{... product , quantity: 1}])
         toast('Added to cart')

@@ -7,7 +7,7 @@ import { Eye, EyeOff } from 'lucide-react';
 import { AuthContext } from '../../Context/AuthContext/UserContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGoogle ,faGithub  } from '@fortawesome/free-brands-svg-icons';
-import { toast } from 'react-toastify';
+
 export default function RegistrationForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
